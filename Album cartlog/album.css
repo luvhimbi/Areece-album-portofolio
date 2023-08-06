@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:  #f0e7d9;
+   
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+    color:  #6b4423;
+}
+.Music {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.album {
+    background-color: black;
+    color:grey;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d3c4a6;
+    padding: 15px;
+}
+
+.album img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    filter: sepia(70%); 
+}
+
+.album h2 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    color:#8b4513;
+    font-family:  'Courgette', cursive;
+}
+
+.album p {
+   font-family: "Amatic SC",cursive;
+   font-size: 30px;
+   font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.listen-links a {
+    display: block;
+    margin-bottom: 5px;
+    color: #cd853f;
+    padding: 10px 20px;
+    background-color: #6b4423;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.listen-links a.spotify {
+    background-color: #1DB954;
+}
+
+.listen-links a.youtube {
+    background-color: #FF0000;
+}
+
+.listen-links a:hover {
+    background-color: #000;
+}
+
+.listen-links a.spotify:hover {
+    background-color: #1ED760;
+}
+
+.listen-links a.youtube:hover {
+    background-color: #FF3333;
+}
+
+
+.album {
+   position:relative;
+    max-width: 900px; /* Set the maximum width of the album div */
+    margin: 0 auto; /* Center the div horizontally */
+}
+
+.video-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%; /* Set the aspect ratio to 16:9 (for a standard widescreen video) */
+}
+
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.vide{
+    font-family: "Lobster",cursive;
+}
+.new{
+    font-family: "",cursive;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Amatic SC",cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/* Styles for the logo */
+.logo-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo-container img {
+    max-width: 150px;
+}
+
+/* Your existing CSS styles... */
